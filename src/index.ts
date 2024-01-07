@@ -1,4 +1,5 @@
 import { Bot } from 'grammy'
+import 'dotenv/config'
 
 const main = () => {
     const token = process.env.TOKEN || ''
